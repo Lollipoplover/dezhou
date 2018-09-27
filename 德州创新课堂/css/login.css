@@ -1,0 +1,39 @@
+.login {
+	width: 400px;
+	height: 300px;
+	margin: 20px auto;
+	text-align: center;
+}
+.login h2 {
+	color: #424242;
+}
+.login div {
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	margin: 20px auto;
+	padding-left: 0px;
+	border: 1px solid #bdbdbd ;
+	border-radius: 2px;
+	position: relative;
+}
+.login form div i {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+}
+.login div input {
+	outline: none;
+}
+.login input[type="submit"]{
+	width: 300px;
+	height: 30px;
+	background-color: orange;
+	color: white;
+	border-radius: 2px;	
+}
+.login p {
+	padding-top: 20px;
+	color: #33627d;
+	font-size: 12px;
+}

@@ -1,0 +1,56 @@
+.register {
+	width: 400px;
+	height: 300px;
+	margin: 20px auto;
+	text-align: center;
+}
+.register h2 {
+	color: #424242;
+}
+.register div {
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	margin: 20px auto;
+	padding-left: 0px;
+	border: 1px solid #bdbdbd ;
+	border-radius: 2px;
+	position: relative;
+}
+
+.register div i {
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	z-index: 1;
+}
+.register .name {
+	border: 0px;
+}
+.register .name input:nth-child(2) {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 150px;
+	height: 30px;
+	border: 1px solid #bdbdbd;
+	border-radius: 2px;
+}
+.register .name input:last-child {
+	position: absolute;
+	left: 200px;
+	border: 1px solid #bdbdbd;
+	width: 96px;
+	height: 30px;
+	border-radius: 2px;
+}
+.register div input {
+	outline: none;
+}
+.register input[type="submit"]{
+	width: 300px;
+	height: 30px;
+	background-color: orange;
+	color: white;
+	border-radius: 2px;	
+}
