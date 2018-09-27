@@ -1,0 +1,78 @@
+* { padding:0; margin:0; list-style:none; border:0;}
+.all {
+  width:1280px;
+  height:200px;
+  position:relative;
+}
+.screen {
+	width:1280px;
+	height:200px;
+	overflow:hidden; 
+	position:relative;
+}
+
+.screen li{ 
+	width:1280px; 
+	height:200px; 
+	overflow:hidden; 
+	float:left;
+}
+.screen ul{ 
+	position:absolute; 
+	left:0; 
+	top:0px; 
+	width:7680px;
+}
+.all ol{ 
+	position:absolute; 
+	bottom:10px;
+	left:50%;
+	transform: translate(-50%);
+	line-height:20px; 
+	text-align:center;
+	padding-right: 20px;
+}
+.all ol li{ 
+	float:left; 
+	width:10px; 
+	height:10px; 
+	background:transparent; 
+	border:1px solid #eee;
+	cursor:pointer;
+	margin: 5px;
+	border-radius: 50px;
+}
+.all ol li.current{ 
+	background:#fff;
+}
+.goodcourse {
+	padding: 30px 40px;
+	background-color: #eee;
+}
+.goodcourse .box {
+	width: auto;
+	background-color: #fff;
+	height: 320px;
+	position: relative;
+	overflow: hidden;
+}
+.goodcourse .box .title {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50px);
+	padding: 20px 0;
+}
+.goodcourse .box ul {
+	position: absolute;
+	width: 960px;
+	margin: auto;
+}
+.goodcourse .box .list{
+	width: 960px;
+	margin: 60px auto;
+}
+
+.goodcourse .box ul li img{
+	float: left;
+	padding: 20px;
+}
